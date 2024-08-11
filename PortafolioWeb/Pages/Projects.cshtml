@@ -1,0 +1,19 @@
+@page
+@model ProjectsModel
+@{
+    ViewData["Title"] = "Listado de proyectos que he hecho";
+}
+<h1>@ViewData["Title"]</h1>
+
+<h2>Mis Proyectos</h2>
+<ul>
+    @foreach (var project in Model.Projects)
+    {
+        <li>
+            <h3>@project.Repository.Name</h3>
+            <p>@project.Repository.Description</p>
+            <p><strong>Tecnologías:</strong> @string.Join(", ", project.Technologies)</p>
+            <a href="@project.Repository.HtmlUrl">Ver en GitHub</a>
+        </li>
+    }
+</ul>
