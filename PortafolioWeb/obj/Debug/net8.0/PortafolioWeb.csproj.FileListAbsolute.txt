@@ -31,3 +31,4 @@ C:\Users\Jimmy\Documents\prograV\Proyecto Final\PortafolioWeb\obj\Debug\net8.0\r
 C:\Users\Jimmy\Documents\prograV\Proyecto Final\PortafolioWeb\obj\Debug\net8.0\PortafolioWeb.pdb
 C:\Users\Jimmy\Documents\prograV\Proyecto Final\PortafolioWeb\obj\Debug\net8.0\PortafolioWeb.genruntimeconfig.cache
 C:\Users\Jimmy\Documents\prograV\Proyecto Final\PortafolioWeb\obj\Debug\net8.0\ref\PortafolioWeb.dll
+C:\Users\Jimmy\Documents\prograV\Proyecto Final\PortafolioWeb\obj\Debug\net8.0\PortafolioWeb.sourcelink.json

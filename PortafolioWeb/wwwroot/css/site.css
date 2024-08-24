@@ -1,22 +1,123 @@
-html {
-  font-size: 14px;
-}
+/* site.css */
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* General Styles */
 body {
-  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #1b6ec2;
+}
+
+.nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f1f1f1;
+  color: #6c757d;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 700;
+  color: #1b6ec2;
+}
+
+/* Custom Box Shadow */
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1b6ec2;
+  border-color: #1b6ec2;
+}
+
+.btn-primary:hover {
+  background-color: #155b9a;
+  border-color: #155b9a;
+}
+
+/* Estilos para el formulario*/
+/* Estilos generales del formulario */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas */
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+/* Estilos para los campos de entrada */
+.contact-form .form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+
+/* Estilos para el botón de envío */
+.contact-form button[type="submit"] {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Estilos para la cabecera */
+h1.text-center {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #343a40;
+}
+
+/* Estilos de alineación */
+.form-group {
+  margin-bottom: 1.5rem;
 }

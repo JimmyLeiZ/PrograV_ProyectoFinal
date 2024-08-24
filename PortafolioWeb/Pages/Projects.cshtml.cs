@@ -29,8 +29,10 @@ public class ProjectsModel : PageModel
         return repoName switch
         {
             "actividad1" => new List<string> { "C#", ".NET" },
-            "PROGRAMACION_3" => new List<string> { "HTML", "CSS" },
-            "repo3" => new List<string> { "Python", "JavaScript" },
+            "PROGRAMACION_3" => new List<string> { "HTML", "CSS", "Javascript" },
+            "PrograV_ProyectoFinal" => new List<string> { "C#", ".NET", "Javascript" },
+            "PaginaWebResponsive" => new List<string> { "HTML", "CSS" },
+            "PrograV_Examen2" => new List<string> { "C#", "HTML", "CSS", "JavaScript"},
             _ => new List<string> { "Otras tecnologías" } // Por defecto
         };
     }
